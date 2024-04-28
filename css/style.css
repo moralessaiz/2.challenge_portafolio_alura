@@ -1,0 +1,64 @@
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.foto {
+    height: 10em;
+    width: 10em;
+    border-radius: 100%;
+    background-color: aliceblue;
+}
+
+.foto-cristhian {
+    border-radius: 100%;
+    height: 10em;
+    width: 10em;
+    
+}
+
+.presentación {
+    display: flex;
+    padding: 20px 100px;
+}
+
+ul {
+    padding-left: 0 !important;
+}
+
+.lista-links {
+    list-style: none;
+    display: flex;
+}
+
+.lista-links > li > a {
+    text-decoration: none;
+    padding-left: 1em;
+}
+
+.sobre-mi {
+    height: 383px;
+    width: 100%;
+    padding: 5% 30% 5% 100px;
+    background-color: #EAF2FD;
+}
+
+.sobre-mi > img {
+    height: 150px;
+}
+
+.skills {
+    padding: 20px 100px;
+    display: flex;
+
+}
+
+.angular > img, .nodejs > img, .laravel > img, .react > img, .sql > img {
+    height: 200px;
+    width: 200px;
+}
+
+.angular > span, .nodejs > span, .laravel > span, .react > span, .sql > span {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
